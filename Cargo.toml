@@ -9,7 +9,7 @@ categories = ["command-line-utilities"]
 readme = "README.md"
 license = "MIT"
 keywords = [
-    "User Agent",
+    "User-Agent",
     "user-agent",
     "browser-identity",
     "scraping",
