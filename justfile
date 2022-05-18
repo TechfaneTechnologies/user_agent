@@ -14,7 +14,7 @@ build-mac:
 build-win:
     if (Test-Path -Path ".\out\user_agent-windows-msvc.zip") { Remove-Item -Path ".\out\user_agent-windows-msvc.zip" }
     if (-Not (Test-Path -Path ".\out")) { New-Item -Name "out" -ItemType Directory }
-    cargo build --target=x86_64-pc-windows-msvc --release -C target-feature=+crt-static
+    cargo build --target=x86_64-pc-windows-msvc --release -- -C target-feature=+crt-static
     Compress-Archive -Path "target\x86_64-pc-windows-msvc\release\user_agent.exe" -DestinationPath "out\user_agent-windows-msvc.zip"
 
 # Build for GNU Linux and GNU Windows (e.g. cygwin)
