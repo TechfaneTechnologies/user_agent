@@ -1,9 +1,9 @@
 [package]
 name = "get_user_agent"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["TechfaneTechnologies <techfanetechnologies@gmail.com>"]
-description = "get_user_agent is an easy to use rust CLI program and library for extracting the latest user agents of all browsers on Windows, Mac, Linux, Android, and iOS platforms."
+description = "Get_User_Agent is an easy to use rust CLI program and library for extracting the latest user agents of all browsers on Windows, Mac, Linux, Android, and iOS platforms."
 repository = "https://github.com/TechfaneTechnologies/user_agent"
 categories = ["command-line-utilities"]
 readme = "README.md"

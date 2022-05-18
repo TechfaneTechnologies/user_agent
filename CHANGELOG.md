@@ -4,7 +4,18 @@
 
 ### 18.05.2022
 
-- Updatd to Get_User_Agent 0.1.0
+### Updated
+
+- This changelog
+- Updatd to Get_User_Agent 0.1.1
+- Updated Crate Name to `Get_User_Agent` in accordance with https://crates.io requirements.
+
+
+## `v0.1.1`
+
+### 18.05.2022
+
+- Updatd to User_Agent 0.1.0
 - Improved upgrade code to be faster and more clean
 - Immediately fail if rate limit error occured
 
