@@ -1,4 +1,4 @@
-# User_Agent
+# UserAgent
 
 [![rust badge](https://img.shields.io/static/v1?label=Made%20with&message=Rust&style=for-the-badge&logo=rust&labelColor=e82833&color=b11522)](https://www.rust-lang.org/)
 [![license badge](https://img.shields.io/github/license/TechfaneTechnologies/user_agent?style=for-the-badge)](https://github.com/TechfaneTechnologies/user_agent/blob/main/LICENSE)
@@ -13,15 +13,15 @@ USER_AGENT is an easy to use rust CLI program and library for extracting the lat
 
 ## Installation
 
-user_agent is a compiled, statically linked program that does not require any external dependencies.
+`useragent` is a compiled, statically linked program that does not require any external dependencies.
 
-> user_agent is coming to more package managers soon!
+> useragent is coming to more package managers soon!
 
 ### Cargo Install
 
-If you have the Rust toolchain, you can also compile and install user_agent by running `cargo install user_agent`.
+If you have the Rust toolchain, you can also compile and install useragent by running `cargo install useragent`.
 
-Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-update) to keep user_agent updated to the latest version!
+Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-update) to keep useragent updated to the latest version!
 
 ### GitHub Releases
 
@@ -31,11 +31,11 @@ Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-upd
 
 ### First Startup
 
-Post Downloading the binary CD to your downloads directory and just type `user_agent` in the terminal to get the user agents displayed in the terminal. And if you have installed `user_agent` via `cargo install user_agent` just open the terminal / cmd / powershell / iterm and type `user_agent` and press enter from any directory of your likings.
+Post Downloading the binary CD to your downloads directory and just type `useragent` in the terminal to get the user agents displayed in the terminal. And if you have installed `useragent` via `cargo install useragent` just open the terminal / cmd / powershell / iterm and type `useragent` and press enter from any directory of your likings.
 
 ```bash
 ╭─ ~/home/bin                                                                                                                                                   3.10.4   ✔  18:17:14  ─╮
-╰─ user_agent
+╰─ useragent
                                                                                                                                                                               ─╯
 ╭─ The Latest User Agents Are As Followings ─╮
 ╰─                                            ─╯
@@ -143,12 +143,12 @@ _To Be Updated_
 
 If you would like to make a feature request, check the [issues](https://github.com/TechfaneTechnologies/user_agent/issues?q=is%3Aissue) to see if the feature has already been added or is planned. If not, [create a new issue](https://github.com/TechfaneTechnologies/user_agent/issues/new).
 
-## Building from Source or Working with user_agent
+## Building from Source or Working with UserAgent
 
 Firstly, you need the Rust toolchain which includes `cargo`, `rustup`, etc. You can install these from [the Rust website](https://www.rust-lang.org/tools/install).
 You'll also need the [Just](https://github.com/casey/just#installation) command runner, its basically a much better version of `make`.
 
-If you want to build user_agent without cloning the repo then run `cargo install user_agent`.
+If you want to build useragent without cloning the repo then run `cargo install useragent`.
 
 To build the project and install it to your Cargo binary directory, clone the project and run `just install`. If you want to install it for testing a developement version, run `just` (alias for `just install-dev`).
 

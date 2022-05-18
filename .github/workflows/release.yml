@@ -85,7 +85,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: binaries
-          path: out/user_agent*.zip
+          path: out/useragent*.zip
           if-no-files-found: error
   
   publish:
@@ -124,7 +124,7 @@ jobs:
           name: binaries
           path: ./out
       - name: Create sha256sum for scoop
-        run: sha256sum ./out/user_agent-windows-msvc.zip | cut -d ' ' -f 1 > ./out/user_agent-windows-msvc.zip.sha256
+        run: sha256sum ./out/useragent-windows-msvc.zip | cut -d ' ' -f 1 > ./out/useragent-windows-msvc.zip.sha256
       # Remove the dots for the markdown header
       - name: MD Header
         run: echo "MD_HEADER=$(echo ${{ github.ref_name }} | sed 's/\.//g')" >> $GITHUB_ENV
@@ -132,9 +132,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: ./out/*
-          name: user_agent ${{ github.ref_name }}
+          name: UserAgent ${{ github.ref_name }}
           body: |
-            Compiled binaries for user_agent version `${{ github.ref_name }}` ([changelog](https://github.com/TechfaneTechnologies/user_agent/blob/main/CHANGELOG.md#${{ env.MD_HEADER }}))
+            Compiled binaries for UserAgent version `${{ github.ref_name }}` ([changelog](https://github.com/TechfaneTechnologies/user_agent/blob/main/CHANGELOG.md#${{ env.MD_HEADER }}))
 
             The provided binaries are for:
 
