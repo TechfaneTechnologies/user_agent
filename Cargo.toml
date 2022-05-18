@@ -1,0 +1,30 @@
+[package]
+name = "user_agent"
+version = "0.1.0"
+edition = "2021"
+authors = ["TechfaneTechnologies <techfanetechnologies@gmail.com>"]
+description = "user_agent is an easy to use rust CLI program and library for extracting the latest user agents of all browsers on Windows, Mac, Linux, Android, and iOS platforms."
+repository = "https://github.com/TechfaneTechnologies/user_agent"
+categories = ["command-line-utilities"]
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "User Agent",
+    "user-agent",
+    "browser-identity",
+    "scraping",
+    "web-scraping"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+futures = "0.3.21"
+reqwest = "0.11.10"
+scraper = "0.13.0"
+tokio = { version = "1.18.2", features = ["full"] }
+
+[profile.release]
+opt-level = "z"
+codegen-units = 1
+strip = "debuginfo"
+lto = "fat"
