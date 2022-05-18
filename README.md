@@ -1,11 +1,11 @@
-# UserAgent
+# Get_User_Agent
 
 [![rust badge](https://img.shields.io/static/v1?label=Made%20with&message=Rust&style=for-the-badge&logo=rust&labelColor=e82833&color=b11522)](https://www.rust-lang.org/)
 [![license badge](https://img.shields.io/github/license/TechfaneTechnologies/user_agent?style=for-the-badge)](https://github.com/TechfaneTechnologies/user_agent/blob/main/LICENSE)
 [![copyleft badge](https://img.shields.io/static/v1?label=&message=Copyleft&style=for-the-badge&labelColor=silver&color=silver&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjAxYBNgYPa+9oAAAEM0lEQVRYw6WYb0zVVRjHP9wQW7umA0xoKNSC+6bSNkzetKZbaVu19aLpfOGcbcw/S+uNbikuNwMsVyE3XVsro7VEXjS3ylmLxkRtC9crHGjCAv9AATK4CoZye8Hl/J7n/M7v8rvX57w55/lznt/583yf5/xyCEOlrKaSCp6ggCiQYJheLvMHv9HHA1MZ++kmmaZ1UUNZ9g6eo4X7aR3Mtvs0syJzB0U0MR3KgddOsiQTFxsZzdDBTLvFetd0OT5OHo1U+7j9tNJBN4MkgChFVLCS1Sz1aR7jHf5Lv4Yov1hfN8YRKgP1V9LIuGVxhmg6Fwv4XalPcJD8OTe3gA+YVHYXgt3kWato46nQp1jOWWs1eW7Fz5VaLbkZ3cdc6pX9UfeNkvd+a1aRtV3Fle+mLeGWEO/0mT/EWo7SxhBjjNDPKfbxtMPNVjHLKMVa+I0Q1lmG89nDTWdctPGqz80hIT+uAWRaGOqzeJEraQOw2YrzXNqNbJrlnqDFsCeJKZO3uDtnnN+wNq6cCSM74SGtd1wHlfrOkHAyyDPKrk5codIZ1n7DSlAoVF9iKjRq/cVCYZnPmJHsnWF1GcYRobiQf3yA3sr7VPM2cXp9br5Va2k0/EsAy4SixKh6a5LT6rQibGBAyaeV9SohWQabzeBvhUcTaoqPHHhdTKfSOaWk1wx/E8TN4CuhssW6pjnOCF/KiNrOxULWZPgNEbEJF4VKFT2mdbGLpNNJPzVqC9eKkTdbDK4ajy9ngVaPiHuU5AshWWe4VyIsMuwbWTi5Q7sYlYj+TdNbFBHpJZEV8vao8sOjMS8VRh64MkumrRhSh5UQ+T278s+jQdF/1PTGI4yaweNZuHiYF1RsyCiapdFcengyNajgZyP4RBhP8RpDAU42KcxqE30vNK7KYJQpploFY1NgnfmvApYiZxpskLAi6/PFVh454HBRyJ9K5yclvS5hJQggP7YA8vvZzJCi1+m3NKoUYnj8Eg31jSonDFuTTPEju9nIZuq55IP6FvUJ3iF0zjBqApLWOu6FTlp9FCgM90rX9/zpt1Z9z56QLkasatnLRfe8TT5pmHetQqI6RAoesB5A5aIy/s5jrxAl0VmrJHqFvrQuflCwCPM4Jy71s1L0tTA75IPzAyo5ea3D8eg5LORf2mWqnGaXz3Q+b3CcDm6nCtBfqeV5R+xsUyf1mC3eoBLp9qzAcocquN90qRxTW/Fhxk+Hw8o+HvQIOqPU2qkI7SLGeauAmhf8YrygVCepU0HmpkLqLaQ7nz43Ra3VJBknzqpA/SrivofpaduF64n9Kdt83OupJ/YA48ACiolRyRpHovuMd5kKs8PrA+JirjbsvlFBlE9DyP8qXnQ3+eNiblpOc+gfOCc0gGRGpeyzymq7dbLXSmch/q24qIQ1VBKjjMLUT7UheunmIq2qQgmg/wHquM6d9tIV7AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wMy0yMlQwMTo1NDowNiswMDowMOIizoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDMtMjJUMDE6NTQ6MDYrMDA6MDCTf3Y5AAAAAElFTkSuQmCC)](https://en.wikipedia.org/wiki/Copyleft)
  [![Build and Release](https://github.com/TechfaneTechnologies/user_agent/actions/workflows/release.yml/badge.svg)](https://github.com/TechfaneTechnologies/user_agent/actions/workflows/release.yml)
 
-USER_AGENT is an easy to use rust CLI program and library for extracting the latest user agents of all browsers on Windows, Mac, Linux, Android, and iOS platforms.
+Get_User_Agent is an easy to use rust CLI program and library for extracting the latest user agents of all browsers on Windows, Mac, Linux, Android, and iOS platforms.
 
 ## Features
 
@@ -13,15 +13,15 @@ USER_AGENT is an easy to use rust CLI program and library for extracting the lat
 
 ## Installation
 
-`useragent` is a compiled, statically linked program that does not require any external dependencies.
+`get_user_agent` is a compiled, statically linked program that does not require any external dependencies.
 
-> useragent is coming to more package managers soon!
+> get_user_agent is coming to more package managers soon!
 
 ### Cargo Install
 
-If you have the Rust toolchain, you can also compile and install useragent by running `cargo install useragent`.
+If you have the Rust toolchain, you can also compile and install get_user_agent by running `cargo install get_user_agent`.
 
-Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-update) to keep useragent updated to the latest version!
+Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-update) to keep get_user_agent updated to the latest version!
 
 ### GitHub Releases
 
@@ -31,11 +31,11 @@ Remember to use an add-on like [cargo-update](https://crates.io/crates/cargo-upd
 
 ### First Startup
 
-Post Downloading the binary CD to your downloads directory and just type `useragent` in the terminal to get the user agents displayed in the terminal. And if you have installed `useragent` via `cargo install useragent` just open the terminal / cmd / powershell / iterm and type `useragent` and press enter from any directory of your likings.
+Post Downloading the binary CD to your downloads directory and just type `get_user_agent` in the terminal to get the user agents displayed in the terminal. And if you have installed `get_user_agent` via `cargo install get_user_agent` just open the terminal / cmd / powershell / iterm and type `get_user_agent` and press enter from any directory of your likings.
 
 ```bash
 ╭─ ~/home/bin                                                                                                                                                   3.10.4   ✔  18:17:14  ─╮
-╰─ useragent
+╰─ get_user_agent
                                                                                                                                                                               ─╯
 ╭─ The Latest User Agents Are As Followings ─╮
 ╰─                                            ─╯
@@ -143,12 +143,12 @@ _To Be Updated_
 
 If you would like to make a feature request, check the [issues](https://github.com/TechfaneTechnologies/user_agent/issues?q=is%3Aissue) to see if the feature has already been added or is planned. If not, [create a new issue](https://github.com/TechfaneTechnologies/user_agent/issues/new).
 
-## Building from Source or Working with UserAgent
+## Building from Source or Working with Get_User_Agent
 
 Firstly, you need the Rust toolchain which includes `cargo`, `rustup`, etc. You can install these from [the Rust website](https://www.rust-lang.org/tools/install).
 You'll also need the [Just](https://github.com/casey/just#installation) command runner, its basically a much better version of `make`.
 
-If you want to build useragent without cloning the repo then run `cargo install useragent`.
+If you want to build get_user_agent without cloning the repo then run `cargo install get_user_agent`.
 
 To build the project and install it to your Cargo binary directory, clone the project and run `just install`. If you want to install it for testing a developement version, run `just` (alias for `just install-dev`).
 
