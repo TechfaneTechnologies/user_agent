@@ -1,8 +1,6 @@
 default: install-dev
 set windows-powershell := true
-
 # export RUSTFLAGS="-Ctarget-feature=+crt-static -Ctarget-cpu=native"
-
 # Build for macOS Intel and macOS Apple Silicon
 build-mac:
     rm -f out/user_agent-macos-x64.zip out/user_agent-macos-arm.zip
